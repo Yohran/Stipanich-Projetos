@@ -1,0 +1,354 @@
+/*
+SUMÁRIO
+	*Geral
+	*Menu
+	*Textos
+	*cabeçalho e páginas de serviços
+	*Sistema
+	*Administrador
+	*Missão Visão e Valores
+	*Serviços e voltar ao topo
+	*Contato
+	*Autenticação
+	*footer
+	*Redes Sociais
+*/
+
+
+/*geral*/
+*{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	font-size: 1em;
+	font-family:"roboto", sans-serif;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main{
+    flex: 1 0 auto;
+}
+.fontzero{
+	font-size: 0pt;
+}
+.container{
+	max-width: 100%;
+	max-height: 100%;
+	padding-left: auto;
+	padding-right: auto;
+}
+.fundo{
+	background: url(../img/back2.png) center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*menu*/
+.menu{
+	background:rgb(253, 227, 111);
+	border-bottom: 1px solid; 
+	position: fixed;
+	top: 0;
+    left: 0;
+    right: 0;
+	z-index: 9999;
+	padding-bottom: 0%;
+}
+.top-menu{
+	padding-bottom: 0%;
+	color: #000000;
+	font-size: 1.3em;
+}
+.top-menu:hover{
+	text-decoration: underline;
+}
+
+.nav-wrapper{
+	position: relative;
+	border-bottom: 1px solid;
+	background: rgb(253, 227, 111);
+}
+.responsive-img{
+	width: 40%;
+}
+.responsive-imgs{
+	padding-top: 2%;
+	width: 10%;
+	padding-bottom: 1%;
+}
+.material-icon{
+	color: #000000;
+}
+/*textos*/
+.title{
+	font-weight: 901;
+	padding-left:2%;
+	font-size: 1.8em;
+	float: middle;
+	text-align: center;
+}
+
+.pad_top{
+	padding-top: 8%;
+}
+.subtitle{
+	text-decoration: underline;
+	font-weight: 950;
+	padding-left:  2%;
+	font-size: 1.4em;
+}
+.tagline{
+	padding-left: 1%;
+	color: #000000;
+}
+.btn, .btn-large{
+	background-color: #FFD700;
+	font-weight: 900;
+	color: #000000;
+}
+.btn:hover , .btn-large:hover{
+	background-color: rgb(253, 227, 111);
+	color: #000000;
+}
+/*cabeçalho e páginas de serviços*/
+.cabecalho{
+	padding-top: 5%;
+	background: url(../img/back2.png) center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 30%;
+}
+.arq{
+	padding-top: 10%;
+	background: url(../img/back3.png) center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 20%;
+}
+.project{
+	padding-top: 10%;
+	background: url(../img/back.png) center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 20%;
+}
+.obra{
+	padding-top: 10%;
+	background: url(../img/back4.png) center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 20%;
+}
+.home{
+	border: 1px solid;
+	background-color: #FFFFFF;
+	border-color: #FFFFFF;
+}
+.intro{
+	padding-bottom: 5%;
+	list-style: 900;
+}
+.text-s{
+	font-size: 1.2em;
+	font-weight: 800;
+	padding-bottom: 5%;
+}
+/*Sistema*/
+.sis{
+	padding-top:5%;
+	border: 3px solid;
+	background-color: #FFFFFF;
+	border-color: #000000;	
+}
+.menusis{
+	padding-left:2%;	
+	color: #000000;
+	text-transform:uppercase;
+}
+.menusis:hover{
+	color: #696969;
+	border: 1px solid #000000;
+	text-decoration:underline;
+	text-transform:uppercase;
+
+}
+/*Administrador e Colaborador*/
+.admin{
+	background: url(../img/back4.png);
+}
+.colab{
+	background: url(../img/back2.png);
+}
+/*Missão Visão e Valores*/
+.missao-visao-valores{
+	background-color: #FFFFFF;
+}
+.vvm{
+	padding-left: 1.8%;
+}
+/*Serviços e voltar ao topo*/
+.servicos{
+	border: 1px solid #000000;
+	width: 34%;
+}
+.svc{
+	background-color: #FFFFFF;
+}
+.voltar-ao-topo {
+	display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    height: 42px;
+    width: 42px;
+    z-index: 9999;
+    line-height: 3em;
+    background: rgb(253, 227, 111) center center no-repeat;
+    background-image: url(../img/scrool-top.png);
+    background-size: 50%;
+}
+.voltar-ao-topo:hover {
+	background-color: #F7E8A4;
+}
+.btn-serv{
+	margin-left: 35%;
+	border: solid;
+	border-color: #7FFFD4;
+	color: #FFFFFF;
+	background: #7FFFD4;
+
+}
+.ser{
+	text-align: center;
+}
+.btn-serv:hover{
+	border-color: #66CDAA;
+	background: #66CDAA;
+}
+.serv{	
+	text-align: center;
+	padding-bottom: 0%;
+	font-weight: 900;
+	font-size: 1.1em;
+	float: middle;
+
+}
+.espaco{
+	padding-left: 0%
+	padding-bottom: 0%;
+	padding-top: 5%;
+	display:block;
+}
+.s3{
+	padding-top: 1%;
+	display: inline-block;	
+}
+.menor{
+	width: 34%;
+}
+/*Contato*/
+.sub{
+	padding: 1%;
+	border: 1px solid #F7E8A4;
+	background: #FFD700;
+	font-weight: 900;
+	font-size: 1.2em;	
+}
+.sub:hover{
+	border: 1px solid #FFD700;
+	background:  #F7E8A4;
+	font-weight: 900;
+	font-size: 1.2em;
+}
+
+.dep{
+	text-align: center;
+}
+.email{		
+	border: 1px solid;
+	background-color: #FFFFFF;
+	border-color: #FFFFFF;
+}
+.contato{
+	padding-top: 30%;
+	background: url(../img/back2.png) center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 30%;
+}
+/*Autenticação*/
+.autenti{
+	padding-top: 10%;
+
+}
+.adm{
+	font-size: 1em;
+	font-weight: 500;
+	color: #000000;
+	padding: 1%;
+	float: right;
+}
+.adm:hover{
+	font-size: 1em;
+	font-weight: 900;
+	padding: 1%;
+}
+.colabo{
+	font-size: 1em;
+	font-weight: 900;
+	color: #000000;
+	padding: 1%;
+	background-color: #FFD700;
+
+}
+.colabo:hover{
+	font-size: 1.1em;
+	font-weight: 900;
+	color: #000000;
+	padding: 1%;
+	background-color:#66CDAA;
+}
+/*footer*/
+.footer-copyright{
+	display: inline-block;
+	bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 0px;
+}
+
+.page-footer{
+	background: rgb(253, 227, 111);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.black-text{
+	text-align: left;
+	color: #000000;
+}
+.copy{
+	color: #000000;
+}
+/* Redes Sociais */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background:#3B5998;
+    color: white;
+}
+.fa-whatsapp {
+    background:#34af23;
+    color: white;
+}
